@@ -5,6 +5,7 @@
 ## dot files for windows
 - Tools: Cmder, Fvim, Visual Studio
 - Theme: Dracula
+- Install Script as Admin: windows-install.ps1
 
 ## WIP: dot files for rhel
 
