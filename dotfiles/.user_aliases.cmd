@@ -15,6 +15,5 @@ cmderr=cd /d "%CMDER_ROOT%"
 tree=tree /f $*
 aliasedit=fvim \tools\Cmder\config\user_aliases.cmd
 profileedit=fvim \tools\Cmder\config\user_profile.cmd
-vs="\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\devenv.exe" /ResetSettings \tools\Cmder\config\.vssettings $*
+studio="\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\devenv.exe" /ResetSettings \tools\Cmder\config\.vssettings $*
 editvi=fvim "%USERPROFILE%"\AppData\Local\nvim\init.vim
-home=cd "%USERPROFILE%"
