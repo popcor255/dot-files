@@ -6,6 +6,7 @@ choco install -y glow
 choco install -y notepadplusplus.install
 choco install -y visualstudio2022enterprise
 choco install -y everything
+choco install -y pasteboard
 
 if (!(Test-Path ~\AppData\Local\nvim))
 {
