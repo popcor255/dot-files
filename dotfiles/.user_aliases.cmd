@@ -1,0 +1,20 @@
+;= @echo off
+;= rem Call DOSKEY and use this file as the macrofile
+;= %SystemRoot%\system32\doskey /listsize=1000 /macrofile=%0%
+;= rem In batch mode, jump to the end of the file
+;= goto:eof
+;= Add aliases below here
+e.=explorer .
+gl=git log --oneline --all --graph --decorate  $*
+ls=ls --show-control-chars -F --color $*
+pwd=cd
+clear=cls
+unalias=alias /d $1
+vi=fvim $*
+cmderr=cd /d "%CMDER_ROOT%"
+tree=tree /f $*
+aliasedit=vi \tools\Cmder\config\user_aliases.cmd
+profileedit=vi \tools\Cmder\config\user_profile.cmd
+vs="\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\devenv.exe" /ResetSettings \tools\Cmder\config\.vssettings $*
+editvi=fvim "%USERPROFILE%"\AppData\Local\nvim\init.vim
+home=cd "%USERPROFILE%"

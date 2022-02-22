@@ -1,0 +1,7 @@
+[credential "helperselector"]
+    selected = manager-core
+[user]
+    name = Napoleon Santana
+    email = popcor255@users.noreply.github.com
+[core]
+    editor = fvim
